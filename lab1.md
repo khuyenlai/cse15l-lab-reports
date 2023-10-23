@@ -1,7 +1,7 @@
 
 ![image](cd.png)
 
-When you use cd by itself (no arguments), it does nothing. This is because you have not prompted the computer to change into what directory you wanted to go into. This defaults to the same directory that you are in now, meaning you are still in the home directory and have not generated an error from the command.
+When you use cd by itself (no arguments), it does nothing. This is because you have not prompted the computer to change into what directory you wanted to go into. This defaults to the same directory that you are in now, meaning you are still in the home directory and have not generated an error from the command. If you were to use the `cd` command to eneter into the directory "directory", and use `cd` again with no arguments, then you would simply change into the home directory.
 
 When using cd with a directory as the argument, you are changing into the directory that you chose. In this example, I changed from the home directory to the "directory" directory. This is correct and did not result in an error.
 
@@ -10,7 +10,7 @@ Now that I'm in the "directory" directory, I am using the cd command with the ar
 
 ![image](ls.png)
 
-when using ls with no arguments, you are looking and what's in the home directory. As it prints out, we can see the directory named "directory" and our file named "file". In this instance, I am in the home directory and the command did not result in an error.
+when using ls with no arguments, you are looking and what's in the current directory. As we are in the home directory, it prints out the directory named "directory" and our file named "file" as the file and directory is in our home directory. In this instance, I am in the home directory and the command did not result in an error. If we were to enter into the "file" file and use the `ls` command, we would find that it prints nothing as there is nothing under the file. 
 
 When using ls with a directory as an argument, the termminal prints nothing. This is due to the fact that ls lists the files under a directory. Meaning when I had no files under the directory "directory", the command printed nothing. I am still in the home directory and the command did not result in an error.
 
