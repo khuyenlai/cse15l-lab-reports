@@ -6,7 +6,7 @@ Lab Report 4 - Vim (Week 7)
 
 Keys pressed: ssh cs15lfa23jt@ieng6.ucsd.edu <Enter>
 
-Explaination: 
+Explaination: The commands allow you to log in remotely to the cse server using your ucsd user credentials. From here, you only need to press enter since your 
 
 2. Clone your fork of the repository from your Github account (using the SSH URL)
 
