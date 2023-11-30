@@ -42,9 +42,9 @@ Explaination: To run the tests again, you simply press the <up> keys two times t
 
 6. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
-![image](GitPush.png)
 ![image](GitAddPush.png)
+![image](GitPush.png)
 
-Keys pressed: 
+Keys pressed: git add ListExamples.java <Enter>, git commit -m "fixed bugs" <Enter>, git push <Enter> 
 
-Explaination: 
+Explaination: Using the commands, `git add` along with the file name, stages the file to be committed in the future. Using the command, `git commit`, saves the chnages. Finally `push` "pushes" the changes to the github account.
