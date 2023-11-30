@@ -38,11 +38,12 @@ Explaination: You use the `vim` command with the name of the file that you want 
 
 Keys pressed: <up><up><Enter>
 
-Explaination: To run the tests again, you simply press the <up> keys two times to return to the last two commands, AKA the bash test.sh command that we used earlier. 
+Explaination: To run the tests again, you simply press the <up> keys two times to return to the last two commands, AKA the `bash test.sh` command that we used earlier. 
 
 6. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
-![image](cd.png)
+![image](GitPush.png)
+![image](GitAddPush.png)
 
 Keys pressed: 
 
