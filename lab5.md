@@ -4,12 +4,13 @@
 **Original Post from Student:**
 
 Title: Weird Compilation Status Check
+
 Category: Skill Demonstrations 
 
 Description:
-Hi, I'm practicing for skill demo 3 and I'm stuck on step 4. I'm trying to check the compilation status of my program, however, the value is always 0 even when there are compilation errors. 
+Hi, I'm practicing for skill demo 3 and I had a question about exit codes. I have a simple program that checks the compilation status of the main function, but the value is always 0 even when there are compilation errors. 
 
-Here's what happened when there was an error: 
+Here's the program with the error: 
 
 ![image](Error.png)
 
@@ -25,15 +26,13 @@ With the following output:
 
 ![image](OutputNoError.png)
 
-I've tried different scenarios with compilaiton success and compilation failure.
-
-This is my code structure by the way: 
+This was my code structure by the way: 
 
 ![image](Structrue.png)
 
 **Response from TA:**
 
-Hey there! It looks like you're trying to check the compilation status using echo <code>$?</code>. However, keep in mind that using echo `<code>$?</code>` immediately after the compilation command might not give you the expected result. Instead, you should check the value of `<code>$?</code>` without echoing it.
+Hey there! It looks like you're trying to check the compilation status using echo <code>$?</code>. However, you should keep in mind that using echo `<code>$?</code>` after compiling it, will default the value back to 0 automatically. Instead, you should check the value of `<code>$?</code>` without echoing it.
 
 Try this:
 
