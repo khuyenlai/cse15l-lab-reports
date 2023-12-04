@@ -33,7 +33,7 @@ This is my code structure by the way:
 
 **Response from TA:**
 
-Hey there! It looks like you're trying to check the compilation status using echo $?. However, keep in mind that using echo $? immediately after the compilation command might not give you the expected result. Instead, you should check the value of $? without echoing it.
+Hey there! It looks like you're trying to check the compilation status using echo <code>$?</code>. However, keep in mind that using echo `<code>$?</code>` immediately after the compilation command might not give you the expected result. Instead, you should check the value of `<code>$?</code>` without echoing it.
 
 Try this:
 
