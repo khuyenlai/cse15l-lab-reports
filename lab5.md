@@ -30,14 +30,23 @@ This was my code structure by the way:
 
 ![image](Structrue.png)
 
+And this was my bash script:
+
+![image](BashScript.png)
+
 **Response from TA:**
 
-Hey there! It looks like you're trying to check the compilation status using echo <code>$?</code>. However, you should keep in mind that using echo `<code>$?</code>` after compiling it, will default the value back to 0 automatically. Instead, you should check the value of `<code>$?</code>` without echoing it.
-
-Try this:
+Hey there! It looks like you're trying to check the compilation status using echo <code>$?</code>. However, you should keep in mind that you using echo <code>$?</code> before compiling it, will only echo the default value of the exit code (which is 0). Instead, you should check the value of <code>$?</code> after compilation like so:
 
 ![image](TAFix.png)
 
-Let me know if this resolves the issue and gives you the correct compilation status!
+Let me know if this works for you!
+
+Response from student:
+
+It looks like it works! The exit code shows 1 now that there's an error!
+
+![image](TAFixOutput.png)
 
 ## Part 2 – Reflection
+One cool thing that I learned that probably isn't that impressive is that I could remove files by navigating to my files direcotry on my computer, like literally pressing the files icon and deleting it from there. I had trouble with using the rm -rf command on the terminal and I almost had given up on removing the file when a friend reminded me I could just do it from the files icon on my screen lol.
