@@ -29,7 +29,7 @@ I've tried different scenarios with compilaiton success and compilation failure.
 
 This is my code structure by the way: 
 
-![image](Structure.png)
+![image](Structrue.png)
 
 **Response from TA:**
 
